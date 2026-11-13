@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background-color: #dce3dd;
+}
+
+.backgroud {
+    display: flex;
+    gap: 12px;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.xc {
+    display: flex;
+    align-items: flex-end;
+    /* Прижимает кнопку к нижнему краю полей ввода */
+    gap: 12px;/
+}
+
+.cx {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+.film {
+    display: flex;
+}
+
+#addMovie {
+    display: flex;
+    padding: 8px 16px;
+    background-color: #092b17;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    height: 26px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Список фильмов</title>
+    <script src="z.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="backgroud">
+        <h1>Что посмотреть</h1>
+        <div class="xc">
+            <div class="cx">
+                <label class="film" for="movieName">Название фильма</label>
+                <input id="movieName" type="text">
+            </div>
+
+            <div class="cx">
+                <label class="film" for="moviePoster">Ссылка на обложку</label>
+                <input id="moviePoster" type="text" placeholder="https://…">
+            </div>
+            <button id="addMovie" type="button">Добавить</button>
+        </div>
+        <ul id="movieList"></ul>
+    </div>
+</body>
+
+</html>
