@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Список фильмов</title>
+    <script src="z.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="backgroud">
+        <h1>Что посмотреть</h1>
+        <div class="xc">
+            <div class="cx">
+                <label class="film" for="movieName">Название фильма</label>
+                <input id="movieName" type="text">
+            </div>
+
+            <div class="cx">
+                <label class="film" for="moviePoster">Ссылка на обложку</label>
+                <input id="moviePoster" type="text" placeholder="https://…">
+            </div>
+            <button id="addMovie" type="button">Добавить</button>
+        </div>
+        <ul id="movieList"></ul>
+    </div>
+</body>
+
+</html>
